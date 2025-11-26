@@ -5,7 +5,7 @@
 }
 .nav
 {
-    width: 980px;
+    width: 1020px;
     height: 20px;
     line-height: 20px;
     margin: 0 auto;
@@ -25,10 +25,10 @@
 .nav span
 {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background: url(../images/sprites.png);
-    background-position: -163px -76px;
+    background-position: -159px -70px;
 }
 .logo
 {
@@ -79,6 +79,7 @@
     float: left;
     margin-top: 17px;
 }
+.logoImg2:hover{transform: scale(1.2);}
 .txt
 {
     font-size: 35px;
@@ -114,38 +115,4 @@
     font-size: 18px;
     color: #686464;
     padding: 10px;
-}
-.banner
-{
-    width: 1000px;
-    height: 312px;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-.banner .list
-{
-    width: 220px;
-    height: 312px;
-    background: #333;
-    float: left;
-}
-.banner li
-{
-    padding: 8px;
-}
-.banner a
-{
-    display:inline-block;
-    padding: 0 10px;
-}
-.banner li:hover{background: #2377f5;}
-.txt3
-{
-    font-size: 18px;
-    float: left;
-}
-.txt4
-{
-    font-size: 14px;
-    float: left;
 }

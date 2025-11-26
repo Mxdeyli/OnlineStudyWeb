@@ -1,0 +1,95 @@
+.banner
+{
+    width: 1060px;
+    height: 312px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.banner .list
+{
+    width: 220px;
+    height: 312px;
+    background: #333;
+    float: left;
+}
+.banner .list li
+{
+    height: 28.6px;
+    line-height: 28.6px;
+    padding: 8px;
+}
+.banner .list a
+{
+    display: block;
+    padding: 0 10px;
+}
+.banner span
+{
+    width: 15px;
+    height: 15px;
+    background: url(../images/sprites.png);
+    background-position: -33px -110px;
+    float: right;
+    margin-top: 7px;
+}
+.banner .list li:hover{background: #2377f5;}
+#pic ul li
+{
+    width: 1000px;
+    height: 312px;
+}
+#pic a
+{
+    width: 780px;
+    height: 312px;
+}
+#pic .ic
+{
+    display:none;
+}
+#pic .sp
+{
+    display:block;
+}
+#pic ol
+{
+	position:absolute; 
+	left:38%; 
+	top:25%;
+	margin-left:-62px;
+}
+#pic ol .back
+{
+    display: inline-block;
+	width:50px; 
+	height:50px;
+    background: url(../images/sprites.png) #575656; 
+    opacity: 0.8;
+    background-position: 18px -58px;
+    border-radius: 50px;
+    margin-right: 323px;
+}
+#pic ol li{cursor:pointer;}
+#pic ol .next
+{
+    display: inline-block;
+	width:50px; 
+	height:50px;
+    background: url(../images/sprites.png) #575656; 
+    opacity: 0.8;
+    background-position: -20px -58px;
+    border-radius: 50px;
+    margin-left: 323px;
+}
+.back:hover{transform: scale(1.2);}
+.next:hover{transform: scale(1.2);}
+.txt3
+{
+    font-size: 18px;
+    float: left;
+}
+.txt4
+{
+    font-size: 14px;
+    float: left;
+}
