@@ -1,0 +1,105 @@
+.footer
+{
+    width: 100%;
+    height: 300px;
+    background-color: #333333;
+    margin-top: 50px;
+}
+.fhead
+{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top:10px ;
+}
+.flearn
+{
+    width:680px;
+    height: 60px;
+    float: left;
+    margin-top: 20px;
+}
+.flearn dt
+{
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding-right: 10px;
+}
+.flearn dd.txt
+{
+    width: 220px;
+    float: left;
+    color:#fff;
+}
+.flearn .txt3
+{
+    width: 395px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+    color: #999797;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.fnav
+{
+    width: 420px;
+    height: 100px;
+    float: left;
+    margin-left: 100px;
+}
+.fnav ul
+{
+    float: left;
+    width: 125px;
+    height: 100px;
+    margin-right:10px ;
+}
+.fnav p
+{
+    font-weight: 600;
+    font-size: 16px;
+    color:#fff;
+}
+.fnav a
+{
+    font-size:14px;
+    color: #999797;
+}
+.fhead hr
+{
+    background: #fff;
+    width: 1120px;
+    height: 2px;
+}
+.finfo
+{
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top:100px ;
+}
+.finfo ul
+{
+    width: 380px;
+    height: 20px;
+}
+.finfo ul li
+{
+    width: 40px;
+    float: left;
+    margin-right: 20px;
+    color: #999797;
+    font-size: 10px;
+    border-right: 2px solid #fff;
+    padding-right: 10px;
+}
+.finfo p
+{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 10px;
+    color:#fff;
+}

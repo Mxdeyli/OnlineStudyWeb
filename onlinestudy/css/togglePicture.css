@@ -1,7 +1,72 @@
-.book
+.books
 {
     width: 1060px;
-    height: 350px;
+    height: 730px;
     margin: 0 auto;
     margin-top: 20px;
+}
+.books .head
+{
+    height: 30px;
+    line-height: 30px;
+}
+.books h1
+{
+    float: left;
+    font-size: 22px;
+    margin-right: 800px;
+}
+.books .head a
+{
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+}
+.books .head p
+{
+    float: left;
+    color: #353434;
+    font-size: 14px;
+}
+.books .head span
+{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(../images/sprites.png);
+    background-position: 8px -110px;
+    float: left;
+    margin-top: 8px;
+}
+.books .pics
+{
+    width: 1060px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.books .pics li
+{
+    background: #cac8c8;
+    width:240px;
+    height: 350px;
+    float: left;
+    margin: 3px;
+}
+.goodsImg
+{
+    padding: 2px 5px 2px 5px;
+    width: 220px;
+    height: 270px;
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+.books .pics p
+{
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #000;
+    margin-left:15px;
 }
