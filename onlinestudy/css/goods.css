@@ -33,32 +33,39 @@
     margin-top: 7px;
 }
 .banner .list li:hover{background: #2377f5;}
-#pic ul li
+.pic ul li
 {
     width: 1000px;
     height: 312px;
 }
-#pic a
+.pic a
 {
+    float: left;
     width: 780px;
     height: 312px;
 }
-#pic .ic
+.bannerImg
+{
+    float: left;
+    width: 780px;
+    height: 312px;
+}
+.pic .ic
 {
     display:none;
 }
-#pic .sp
+.pic .sp
 {
     display:block;
 }
-#pic ol
+.pic ol
 {
 	position:absolute; 
 	left:38%; 
 	top:25%;
 	margin-left:-62px;
 }
-#pic ol .back
+.pic ol .back
 {
     display: inline-block;
 	width:50px; 
@@ -69,8 +76,8 @@
     border-radius: 50px;
     margin-right: 323px;
 }
-#pic ol li{cursor:pointer;}
-#pic ol .next
+.pic ol li{cursor: pointer;}
+.pic ol .next
 {
     display: inline-block;
 	width:50px; 
