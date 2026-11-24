@@ -1,48 +1,29 @@
 .books
 {
     width: 1060px;
-    height: 730px;
+    min-height: 300px;
     margin: 0 auto;
     margin-top: 20px;
 }
 .books .head
 {
-    height: 30px;
-    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.books h1
+.books h1 { font-size: 22px; }
+#show-all-books
 {
-    float: left;
-    font-size: 22px;
-    margin-right: 800px;
+    padding: 6px 10px;
+    background: #f0f0f0;
+    cursor: pointer;
 }
-.books .head a
-{
-    height: 30px;
-    line-height: 30px;
-    display: block;
-    float: left;
-}
-.books .head p
-{
-    float: left;
-    color: #353434;
-    font-size: 14px;
-}
-.books .head span
-{
-    display: block;
-    width: 15px;
-    height: 15px;
-    background: url(../images/sprites.png);
-    background-position: 8px -110px;
-    float: left;
-    margin-top: 8px;
-}
+#book-search-status:not(:empty) { margin: 8px 0; }
+.books .pics li[hidden] { display: none; }
 .books .pics
 {
     width: 1060px;
-    height: 700px;
+    display: flow-root;
     margin: 0 auto;
     margin-top: 5px;
 }

@@ -56,12 +56,6 @@
     float: left;
     padding-right: 10px;
 }
-.logo .search dt
-{
-    width: 37px;
-    height: 37px;
-    float: left;
-}
 .logoImg
 {
     width: 50px;
@@ -70,16 +64,22 @@
     background-size: 100% 100%;
     float: left;
 }
-.logoImg2
+.search-button
 {
-    width: 37px;
-    height: 37px;
-    background: url(btn.png) no-repeat;
-    background-size: 100% 100%;
     float: left;
     margin-top: 17px;
+    width: 37px;
+    height: 37px;
+    background: transparent;
+    cursor: pointer;
 }
-.logoImg2:hover{transform: scale(1.2);}
+.search-button img { display: block; width: 100%; }
+.search input { padding: 0 8px; }
+button:focus-visible, input:focus-visible
+{
+    outline: 2px solid #2377f5;
+    outline-offset: 2px;
+}
 .txt
 {
     font-size: 35px;
