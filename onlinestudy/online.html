@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,8 @@
     <link href="css/footer.css" rel="stylesheet" />
     <link href="css/goods.css" rel="stylesheet" />
     <link href="css/togglePicture.css" rel="stylesheet"/>
-    <script type="text/javascript" src="js/goods.js"></script>
+    <script src="js/goods.js" defer></script>
+    <script src="js/togglePicture.js" defer></script>
 </head>
 <body>
     <div id="header">
@@ -29,14 +30,14 @@
         </dl>
         <ul class="snav">
             <li><a href="#">首页</a></li>
-            <li><a href="#">图书库</a></li>
+            <li><a href="#books">图书库</a></li>
             <li><a href="#">教学资源</a></li>
             <li><a href="#">关于我们</a></li>
         </ul>
-        <dl class="search">
-            <dd class="txt2">请输入关键词</dd>
-            <dt><li><a href="#"><img src="images/btn.png" class="logoImg2" alt=""></a></li></dt>
-        </dl>
+        <form class="search" id="book-search" role="search">
+            <input class="txt2" id="book-keyword" type="search" aria-label="按书名搜索" placeholder="请输入书名关键词">
+            <button type="submit" class="search-button" aria-label="搜索图书"><img src="images/btn.png" alt=""></button>
+        </form>
     </div>
     <div class="banner">
         <dl>
@@ -57,18 +58,20 @@
                     <li class="ic"><a href="#"><img src="images/banner/banner_2.png" class="bannerImg" alt=""></a></li>
                     <li class="ic"><a href="#"><img src="images/banner/banner_3.jpg" class="bannerImg" alt=""></a></li>
                 </ul>
-                <ol id="button">
-                    <li class="back"></li>
-                    <li class="next"></li>
-                </ol>
+                <div id="button">
+                    <button type="button" class="back" aria-label="上一张"></button>
+                    <button type="button" class="next" aria-label="下一张"></button>
+                    <button type="button" class="rotation">暂停轮播</button>
+                </div>
             </dt>
         </dl>
     </div>
-    <div class="books">
+    <div class="books" id="books">
         <div class="head">
         <h1>精品书籍推荐</h1>
-            <a href="#"><p>查看全部</p><span></span></a>
+            <button type="button" id="show-all-books">查看全部</button>
         </div>
+        <p id="book-search-status" role="status"></p>
         <div class="pics">
             <ul>
                 <li><a href="#"><img src="images/goods/1.png" class="goodsImg" alt=""><p>Vue.js前端开发实战(第2版)</p></a></li>
